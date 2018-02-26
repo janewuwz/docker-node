@@ -1,0 +1,12 @@
+docker pull hub.c.163.com/nce2/nodejs:0.12.2
+docker images
+vi package.json
+vi server.js
+vi Dockerfile
+docker build -t mynodeapp .
+docker images
+docker run -d -p 8888:8888 7c538f7e2b3e
+docker ps
+docker logs b2a
+curl -i localhost:8888
+
